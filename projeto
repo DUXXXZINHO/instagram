@@ -10,11 +10,42 @@
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
-    <div  class="container">
+    <div  class="container justify-content-center d-flex align-items-center vh-100 flex-column" >
         <figure class="figure">
-            <img src="./img/transparente.png" class="figure-img img-fluid"> 
+            <img src="./img/transparente.png" class="figure-img img-fluid"  width="250px"> 
         </figure>
+        <form>
+            <input class="mb-2 form-control" type="email" placeholder="email">
+            <input class="mb-2 form-control" type="password" placeholder="senha">
+            <button class="my-3 btn btn-primary" style="border: solid 2px white; width: 15.1em; background-color:cornflowerblue; color: whitesmoke;" >LOGIN</button>
+            <div>
+            <p style="padding-left: 6.7em;">ou</p>
+            <img src="/img/5D8s-GsHJlJ.png">
+            <a href="https://www.facebook.com/?locale=pt_BR _blank"><span style="color: blue">Entrar com Facebook</span></a>
+            <p style="padding-left: 1.2em;">Nao tem conta?<a href="https://www.instagram.com/accounts/emailsignup/ _blank">Cadraste-se</a></p>
+            
+           
+            
+        </form>
     </div>
+    <footer class="texto-cinza container-fluid">
+        <div class="container-fluid d-flex justify-content-around flex-wrap gap-3"> 
+            <a href="link-underline link-underline-opacity-0 link-underline-opacity-100-hover"> Meta</a>
+            <a href="link-underline link-underline-opacity-0 link-underline-opacity-100-hover"> Sobre</a>
+            <a href="link-underline link-underline-opacity-0 link-underline-opacity-100-hover"> Blog</a>
+            <a href="link-underline link-underline-opacity-0 link-underline-opacity-100-hover"> Carreiras</a>
+            <a href="link-underline link-underline-opacity-0 link-underline-opacity-100-hover"> Ajuda</a>
+            <a href="link-underline link-underline-opacity-0 link-underline-opacity-100-hover"> API</a>
+            <a href="link-underline link-underline-opacity-0 link-underline-opacity-100-hover"> Privacidade</a>
+            <a href="link-underline link-underline-opacity-0 link-underline-opacity-100-hover"> Termos</a>
+            <a href="link-underline link-underline-opacity-0 link-underline-opacity-100-hover"> Localização</a>
+            <a href="link-underline link-underline-opacity-0 link-underline-opacity-100-hover"> Instagram Lite</a>
+            <a href="link-underline link-underline-opacity-0 link-underline-opacity-100-hover"> Threads</a>
+            <a href="link-underline link-underline-opacity-0 link-underline-opacity-100-hover"> Uploud de contatos e não usuarios Meta Verified</a>
+        </div>
+        <h6>2025 HeroGeek Eduardo Alex </h6>
+    </footer>
+    
   
 </body>
   
